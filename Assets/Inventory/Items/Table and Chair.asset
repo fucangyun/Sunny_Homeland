@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 209b5dcf6196e4f4ea805645d5e1c4a5, type: 3}
+  m_Name: Table and Chair
+  m_EditorClassIdentifier: 
+  itemName: 
+  itemImage: {fileID: 113235838, guid: c7f376881aafa8a438c6cc3dd21ea4df, type: 3}
+  itemHeld: 1
+  itemInfo: 'Table and chair:
+
+    I''m always alone.'
+  equip: 1
