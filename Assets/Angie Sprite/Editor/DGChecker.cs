@@ -26,7 +26,7 @@ using System.IO;
 using System.Text.RegularExpressions;
 using System;
 
-namespace AppAdvisory.Angie
+namespace AppAdvisory_Jacbo.Angie_Jacbo
 {
 	[InitializeOnLoad]
 	public class DGChecker : EditorWindow 

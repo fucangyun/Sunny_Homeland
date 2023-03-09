@@ -30,7 +30,6 @@ public class IdleState : Istate
         {
             manager.TransitionState(StateType.Walk);
         }
-        
     }
 
     public void OnExit()
@@ -51,6 +50,7 @@ public class WalkState : Istate
 
     public void OnEnter()
     {
+        
         if (GameObject.FindObjectOfType<Character>().GetComponent<Character>().IsDie == false)
         {
             parameter.animator.Play("Walk_animation");

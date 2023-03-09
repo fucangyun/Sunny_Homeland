@@ -14,6 +14,10 @@ public class ButtonManager : MonoBehaviour
     public GameObject RestartButton;
     public GameObject ResumeButton;
     public GameObject ExitButton;
+    public GameObject ContinueButton1;
+    public GameObject ContinueButton2;
+    public GameObject TutorialPage1;
+    public GameObject TutorialPage2;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,6 +56,47 @@ public class ButtonManager : MonoBehaviour
     public void ButtonLevel6()
     {
         SceneManager.LoadScene(6);
+    }
+    public void ButtonLevel7()
+    {
+        SceneManager.LoadScene(7);
+    }
+    public void ButtonLevel8()
+    {
+        SceneManager.LoadScene(8);
+    }
+    public void ButtonLevel9()
+    {
+        SceneManager.LoadScene(9);
+    }
+
+    public void ButtonLevel10()
+    {
+        SceneManager.LoadScene(10);
+    }
+    public void ButtonLevel11()
+    {
+        SceneManager.LoadScene(11);
+    }
+    public void ButtonLevel12()
+    {
+        SceneManager.LoadScene(12);
+    }
+    public void ButtonLevel13()
+    {
+        SceneManager.LoadScene(13);
+    }
+    public void ButtonLevel14()
+    {
+        SceneManager.LoadScene(14);
+    }
+    public void ButtonLevel15()
+    {
+        SceneManager.LoadScene(15);
+    }
+    public void ButtonLevel16()
+    {
+        SceneManager.LoadScene(16);
     }
     public void ButtonNextLevel()
     {
@@ -107,6 +152,20 @@ public class ButtonManager : MonoBehaviour
         PlayerPrefs.SetInt("InventoryCount", 0);
         PlayerPrefs.SetInt("unlockedLevelIndex", 0);
         Application.Quit();
+    }
+
+    public void BottonContinue1()
+    {
+        ContinueButton1.SetActive(false);
+        ContinueButton2.SetActive(true);
+        TutorialPage1.SetActive(false);
+        TutorialPage2.SetActive(true);
+    }
+
+    public void BottonContinue2()
+    {
+        ContinueButton2.SetActive(false);
+        TutorialPage2.SetActive(false);
     }
 }
 

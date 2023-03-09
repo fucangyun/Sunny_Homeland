@@ -6,9 +6,9 @@ using System.IO;
 using System.Text.RegularExpressions;
 using System;
 
-namespace AppAdvisory.Angie
+namespace AppAdvisory_Jacbo.Angie_Jacbo
 {
-	public class OpenMoreGames : MonoBehaviour 
+	public class OpenMoreGames_Jacbo : MonoBehaviour 
 	{
 		public void OnClicked()
 		{

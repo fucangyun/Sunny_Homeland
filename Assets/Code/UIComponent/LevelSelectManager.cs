@@ -33,6 +33,10 @@ public class LevelSelectManager : MonoBehaviour
     }
     public void LevelSelect()
     {
+        if (PlayerPrefs.GetInt("InventoryCount") == 15)
+        {
+            PlayerPrefs.SetInt("unlockedLevelIndex", 16);
+        }
         UnlockedLevelIndex = PlayerPrefs.GetInt("unlockedLevelIndex");
         LevelSelectButtons = new Button[LevelSelectPanel.transform.childCount];
         for (int i = 0; i < LevelSelectPanel.transform.childCount; i++)
