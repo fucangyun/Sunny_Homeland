@@ -71,7 +71,7 @@ public class RoomOnDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.GetComponent<Character>() != null)
+        if (collision.gameObject.GetComponent<Character>() || collision.gameObject.GetComponent<FSM_Enemy>() != null)
             collision.gameObject.transform.SetParent(transform);
     }
 }

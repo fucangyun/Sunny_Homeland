@@ -21,11 +21,11 @@ public class Door_Demo1 : MonoBehaviour
     private float transformOffsetX;
     SpriteRenderer Sr;
     // Start is called before the first frame update
-    private DoorManager_Demo1 doorManager;
+    private DoorManagerDemo_1 doorManager;
 
     void Start()
     {
-        doorManager = FindObjectOfType<DoorManager_Demo1>();
+        doorManager = FindObjectOfType<DoorManagerDemo_1>();
         
         if (doorManager == null) return;
 
@@ -60,10 +60,10 @@ public class Door_Demo1 : MonoBehaviour
         {
             Sr.color = new Color32(154, 89, 25, 255);
         }
-        if (pairNUM == 5)
-        {
-            Sr.color = new Color32(0, 255, 255, 255);
-        }
+        //if (pairNUM == 5)
+        //{
+        //    Sr.color = new Color32(0, 255, 255, 255);
+        //}
         if (Input.GetKeyDown(KeyCode.E))
         {
             PlayerTransform = FindObjectOfType<Character>().GetComponent<Transform>();

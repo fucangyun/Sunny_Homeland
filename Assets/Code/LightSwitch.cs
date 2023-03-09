@@ -7,6 +7,7 @@ public class LightSwitch : MonoBehaviour
 {
     public GameObject ControllingLight;
     public GameObject DarkImage;
+    public GameObject LightImage;
     public SpriteRenderer sr;
     private bool isNearSwitch;
     // Start is called before the first frame update
@@ -26,12 +27,14 @@ public class LightSwitch : MonoBehaviour
                 {
                     ControllingLight.GetComponent<Light>().IsOn = false;
                     DarkImage.SetActive(true);
+                    LightImage.SetActive(false);
                     sr.flipY = false;
                 }
                 else
                 {
                     ControllingLight.GetComponent<Light>().IsOn = true;
                     DarkImage.SetActive(false);
+                    LightImage.SetActive(true);
                     sr.flipY = true;
                 }
             }

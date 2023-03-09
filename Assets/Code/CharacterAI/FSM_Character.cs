@@ -8,7 +8,7 @@ using static WalkState;
 
 public enum StateType
 {
-    Idle, Walk, Die
+    Idle, Walk, Die, Attacked
 }
 [Serializable]
 public class Parameter
@@ -25,6 +25,7 @@ public class FSM_Character : MonoBehaviour
         states.Add(StateType.Idle, new IdleState(this));
         states.Add(StateType.Walk, new WalkState(this));
         states.Add(StateType.Die, new DieState(this));
+        states.Add(StateType.Attacked, new AttackedState(this));
 
         TransitionState(StateType.Idle);
 
@@ -34,6 +35,10 @@ public class FSM_Character : MonoBehaviour
     void Update()
     {
         currentState.OnUpdate();
+        if (GetComponent<Character>().IsAttacked == true)
+        {
+            TransitionState(StateType.Attacked);
+        }
     }
 
     public void TransitionState(StateType type)
@@ -50,13 +55,9 @@ public class FSM_Character : MonoBehaviour
         
         if (collision.gameObject.GetComponent<DarkLightComponent>() != null)
         {
-            Debug.Log("Enter");
             TransitionState(StateType.Die);
         }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.GetComponent<DarkLightComponent>() != null)
+        if (collision.gameObject.GetComponent<WhiteLightComponent>() != null)
         {
             TransitionState(StateType.Idle);
         }

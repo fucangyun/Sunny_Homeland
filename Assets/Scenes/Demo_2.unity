@@ -9661,9 +9661,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_speed: 500
-  m_rayLength: 0.1
+  m_rayLength: 100
   m_xOffset: 0
-  m_jumpHeight: 500
+  m_jumpHeight: 400
   HP: 0
   IsDie: 0
   IsDieAnimationFinish: 0

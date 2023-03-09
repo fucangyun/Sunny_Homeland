@@ -9,12 +9,48 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: cce189f1edc0b344fb31adc1162e64d9
   - enabled: 1
-    path: Assets/Scenes/Demo_1.unity
+    path: Assets/Scenes/S1L1.unity
+    guid: d58512943aa179d4f9f62beab631ecd6
+  - enabled: 1
+    path: Assets/Scenes/S1L2.unity
+    guid: 31a4937a48c65714fb6fc258f490766d
+  - enabled: 1
+    path: Assets/Scenes/S1L3.unity
+    guid: f5c83ee6154282e46a25a22017bd3bc8
+  - enabled: 1
+    path: Assets/Scenes/S1L4.unity
+    guid: dedc7d1400849414c923a3501d7edd13
+  - enabled: 1
+    path: Assets/Scenes/S1L5.unity
+    guid: 7f69bf524aa91e440a5e00f90c4ca9e2
+  - enabled: 1
+    path: Assets/Scenes/S2L1.unity
+    guid: 4330f6d1e56a26f4dab586e3698ba6cf
+  - enabled: 1
+    path: Assets/Scenes/S2L2.unity
+    guid: dd6d99fdb8406904da7beffa389054f7
+  - enabled: 1
+    path: Assets/Scenes/S2L3.unity
+    guid: d421a67be068b934790be459e3dcf0d5
+  - enabled: 1
+    path: Assets/Scenes/S2L4.unity
+    guid: 5426076be18c6fa41b4f128643e55d9e
+  - enabled: 1
+    path: Assets/Scenes/S2L5.unity
+    guid: c4ba241e37af2f440a3dc744e927c4f6
+  - enabled: 1
+    path: Assets/Scenes/S3L1.unity
     guid: 2351540483bf9264db949482f6e4c514
   - enabled: 1
-    path: Assets/Scenes/Demo_2.unity
-    guid: 1ad1b21a78cdbd64a934700a62bff98a
+    path: Assets/Scenes/S3L2.unity
+    guid: 6e9ec5dba6a6f014c9f7983b7fa0e0fa
   - enabled: 1
-    path: Assets/Scenes/Demo_3.unity
-    guid: 39187e7c21cc5c3449e6616c36c4c3d1
+    path: Assets/Scenes/S3L3.unity
+    guid: c4b5301d321134e498fdfcefbae84b2b
+  - enabled: 1
+    path: Assets/Scenes/S3L4.unity
+    guid: 89ed1fb91cfedb74cba42b473283d859
+  - enabled: 1
+    path: Assets/Scenes/S3L5.unity
+    guid: 29b568e37fb66c14790be91cd7ac8721
   m_configObjects: {}

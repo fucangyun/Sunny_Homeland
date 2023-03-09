@@ -13,7 +13,7 @@ public class DoorManager : MonoBehaviour
     void Start()
     {
         count = 0;
-        //doorArr = FindObjectsOfType<Door>();
+        //doorArr_S3L4 = FindObjectsOfType<Door>();
         flag = 1;
     }
 

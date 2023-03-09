@@ -19,11 +19,11 @@ public class Door : MonoBehaviour
     private float transformOffset;
     SpriteRenderer Sr;
     // Start is called before the first frame update
-    private DoorManager_S1L1 doorManager;
+    private DoorManagerDemo_1 doorManager;
 
     void Start()
     {
-        doorManager = FindObjectOfType<DoorManager_S1L1>();
+        doorManager = FindObjectOfType<DoorManagerDemo_1>();
         
         if (doorManager == null) return;
 

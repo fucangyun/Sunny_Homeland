@@ -18,8 +18,8 @@ TagManager:
   - LevelWall
   - RoomWall
   - Ground
-  - 
-  - 
+  - Enemy
+  - Character
   - 
   - 
   - 

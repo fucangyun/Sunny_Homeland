@@ -9,24 +9,22 @@ public class Character : BaseUnit
     private float XInput;
     [SerializeField]
     private float m_jumpHeight;
-    [SerializeField]
-    private int HP;
+    public bool IsAttacked = false;
     public bool IsDie = false;
     public bool IsDieAnimationFinish = false;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        sr = GetComponent<SpriteRenderer>();
+        //sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(IsDieAnimationFinish);
+        Debug.Log(IsDieAnimationFinish);
         if (IsDie == false)
         {
-           
             XInput = Input.GetAxis("Horizontal");
             Move(XInput);
             if (IsGrounded(m_xOffset))

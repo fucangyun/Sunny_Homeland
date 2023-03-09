@@ -100,7 +100,7 @@ public class WalkState : Istate
                     GameObject.FindObjectOfType<ButtonManager>().GetComponent<ButtonManager>().DieMenu.SetActive(true);
                     Time.timeScale = 0;
                 }
-                
+
             }
 
             if (timer <= 1.5)
@@ -120,10 +120,37 @@ public class WalkState : Istate
         {
             if (timer > 1.5)
             {
-                    GameObject.FindObjectOfType<ButtonManager>().GetComponent<ButtonManager>().DieMenu.SetActive(true);
-                    Time.timeScale = 0;
+                GameObject.FindObjectOfType<ButtonManager>().GetComponent<ButtonManager>().DieMenu.SetActive(true);
+                Time.timeScale = 0;
             }
             GameObject.FindObjectOfType<Character>().GetComponent<Character>().m_speed = 500;
+        }
+    }
+    public class AttackedState : Istate
+    {
+        private FSM_Character manager;
+        private Parameter parameter;
+        private AnimatorStateInfo info;
+        public AttackedState(FSM_Character manager)
+        {
+            this.manager = manager;
+            this.parameter = manager.parameter;
+        }
+        public void OnEnter()
+        {
+
+        }
+        public void OnUpdate()
+        {
+            parameter.animator.Play("Die_animation");
+            if (GameObject.FindObjectOfType<Character>().GetComponent<Character>().IsDieAnimationFinish == true)
+            {
+                GameObject.FindObjectOfType<ButtonManager>().GetComponent<ButtonManager>().DieMenu.SetActive(true);
+                Time.timeScale = 0;
+            }
+        }
+        public void OnExit()
+        {
         }
     }
 }

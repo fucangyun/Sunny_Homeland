@@ -12,7 +12,7 @@ public class BaseUnit : MonoBehaviour
     protected float m_rayLength;
     [SerializeField]
     protected float m_xOffset;
-    protected SpriteRenderer sr;
+    //protected SpriteRenderer sr;
     protected Animator anim;
     protected Rigidbody2D rb;
     // Start is called before the first frame update
@@ -30,11 +30,11 @@ public class BaseUnit : MonoBehaviour
     {
         if (direction > 0)
         {
-            sr.flipX = false;
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
         else if (direction < 0)
         {
-            sr.flipX = true;
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x) * -1, transform.localScale.y, transform.localScale.z);
         }
 
         rb.velocity = new Vector2(direction * m_speed, rb.velocity.y);

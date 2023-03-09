@@ -3,7 +3,7 @@ using System.Collections.Generic;
 //using UnityEditor.Profiling.Memory.Experimental;
 using UnityEngine;
 
-public class DoorManager_Demo1 : MonoBehaviour
+public class DoorManagerDemo_1 : MonoBehaviour
 {
     [SerializeField]
     private Door_Demo1[] doorArr_Demo1;
