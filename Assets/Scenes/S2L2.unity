@@ -6289,6 +6289,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1856735863
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 535291669}
+    m_Modifications:
+    - target: {fileID: 2319345622860002025, guid: bca77e2ab3abfbd438b25b5f29d6bb1d, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319345622860002025, guid: bca77e2ab3abfbd438b25b5f29d6bb1d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -99
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319345622860002025, guid: bca77e2ab3abfbd438b25b5f29d6bb1d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319345622860002025, guid: bca77e2ab3abfbd438b25b5f29d6bb1d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.257571
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319345622860002025, guid: bca77e2ab3abfbd438b25b5f29d6bb1d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319345622860002025, guid: bca77e2ab3abfbd438b25b5f29d6bb1d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319345622860002025, guid: bca77e2ab3abfbd438b25b5f29d6bb1d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319345622860002025, guid: bca77e2ab3abfbd438b25b5f29d6bb1d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319345622860002025, guid: bca77e2ab3abfbd438b25b5f29d6bb1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319345622860002025, guid: bca77e2ab3abfbd438b25b5f29d6bb1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319345622860002025, guid: bca77e2ab3abfbd438b25b5f29d6bb1d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2319345622860002026, guid: bca77e2ab3abfbd438b25b5f29d6bb1d, type: 3}
+      propertyPath: m_Name
+      value: folded-paper crane
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bca77e2ab3abfbd438b25b5f29d6bb1d, type: 3}
 --- !u!1 &1868957494
 GameObject:
   m_ObjectHideFlags: 0

@@ -1244,6 +1244,63 @@ MonoBehaviour:
   TouchDoorNUM: 0
   transformOffsetY: 0
   transformOffsetX: -20
+--- !u!1001 &190410689
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1289620332}
+    m_Modifications:
+    - target: {fileID: 5281996852800987056, guid: f110d99b392076d4a9ae392bf6ea69a9, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281996852800987056, guid: f110d99b392076d4a9ae392bf6ea69a9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -215
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281996852800987056, guid: f110d99b392076d4a9ae392bf6ea69a9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -126
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281996852800987056, guid: f110d99b392076d4a9ae392bf6ea69a9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.257571
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281996852800987056, guid: f110d99b392076d4a9ae392bf6ea69a9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281996852800987056, guid: f110d99b392076d4a9ae392bf6ea69a9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281996852800987056, guid: f110d99b392076d4a9ae392bf6ea69a9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281996852800987056, guid: f110d99b392076d4a9ae392bf6ea69a9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281996852800987056, guid: f110d99b392076d4a9ae392bf6ea69a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281996852800987056, guid: f110d99b392076d4a9ae392bf6ea69a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281996852800987056, guid: f110d99b392076d4a9ae392bf6ea69a9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5281996852800987059, guid: f110d99b392076d4a9ae392bf6ea69a9, type: 3}
+      propertyPath: m_Name
+      value: Travel Flyer
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f110d99b392076d4a9ae392bf6ea69a9, type: 3}
 --- !u!1 &217600312
 GameObject:
   m_ObjectHideFlags: 0

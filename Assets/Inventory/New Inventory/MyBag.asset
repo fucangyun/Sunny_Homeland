@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: MyBag
   m_EditorClassIdentifier: 
   itemList:
-  - {fileID: 11400000, guid: 2cdc1454c284e5f4c9fd787aac3b0206, type: 2}
-  - {fileID: 11400000, guid: 577a6d6e0ce8cd04faa3dfd35d519e9f, type: 2}
-  - {fileID: 11400000, guid: 728c2057eada83f43bd15d74f3e513ae, type: 2}
-  - {fileID: 11400000, guid: 12ff3e0d69c5e544d911d1a06bc9ff16, type: 2}
-  - {fileID: 11400000, guid: 9a90717637157d644a3c1f2b5640d1a5, type: 2}
-  - {fileID: 11400000, guid: 1b72c9857e223ef4696e4a37cd76bd1e, type: 2}
-  - {fileID: 11400000, guid: b73fb201d0ae449478fd1bf165e98580, type: 2}
-  - {fileID: 11400000, guid: 17e91c1028690874f9efe97d884178cb, type: 2}
-  - {fileID: 11400000, guid: 76d0b575cffe98141a52bd72c5026322, type: 2}
-  - {fileID: 11400000, guid: 2a4a32c3fdf88c041accd3591841caee, type: 2}
-  - {fileID: 11400000, guid: 6c17f936a6355ee488f220c81d6bd5e5, type: 2}
-  - {fileID: 11400000, guid: e3e0395c4e100014aa7201ad26a7528f, type: 2}
-  - {fileID: 11400000, guid: 5c5ae408e6bc96044abe019d80f4adff, type: 2}
-  - {fileID: 11400000, guid: 6c561951d85a85143897702526163f9b, type: 2}
-  - {fileID: 11400000, guid: 0480655bd3c5fa347a866d2adf93c8d7, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
