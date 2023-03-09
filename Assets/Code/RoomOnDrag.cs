@@ -9,12 +9,12 @@ using UnityEngine.UIElements;
 public class RoomOnDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     public Vector3 TempPos;
-    [SerializeField]
-    private Door[] doorArray;
+    //[SerializeField]
+    //private Door[] doorArray;
 
     void Start()
     {
-        doorArray = FindObjectsOfType<Door>();
+        //doorArray = FindObjectsOfType<Door>();
     }
 
     public void OnBeginDrag(PointerEventData eventData)
