@@ -13,6 +13,7 @@ public class ButtonManager : MonoBehaviour
     public GameObject BackToMenuButton;
     public GameObject RestartButton;
     public GameObject ResumeButton;
+    public GameObject ExitButton;
     // Start is called before the first frame update
     void Start()
     {
@@ -64,6 +65,7 @@ public class ButtonManager : MonoBehaviour
         ResumeButton.SetActive(false);
         BackToMenuButton.SetActive(false);
         RestartButton.SetActive(false);
+        ExitButton.SetActive(false);
         GameObject.Find("LevelSelectManager").SendMessage("LevelSelect");
     }
     public void ButtonSelectLevel_Menu()
@@ -84,6 +86,7 @@ public class ButtonManager : MonoBehaviour
         ResumeButton.SetActive(true);
         RestartButton.SetActive(true);
         LevelButtons.SetActive(false);
+        ExitButton.SetActive(true);
     }
     public void ButtonMenu()
     {
@@ -97,6 +100,13 @@ public class ButtonManager : MonoBehaviour
         MenuPage.SetActive(false);
         MenuButton.SetActive(true);
         Time.timeScale = 1;
+    }
+
+    public void BottonExit()
+    {
+        PlayerPrefs.SetInt("InventoryCount", 0);
+        PlayerPrefs.SetInt("unlockedLevelIndex", 0);
+        Application.Quit();
     }
 }
 
