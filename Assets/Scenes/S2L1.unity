@@ -9109,7 +9109,7 @@ GameObject:
   - component: {fileID: 1914380376}
   - component: {fileID: 1914380375}
   - component: {fileID: 1914380373}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: NancyDark
   m_TagString: People
   m_Icon: {fileID: 0}
