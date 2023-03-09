@@ -51,6 +51,12 @@ EditorBuildSettings:
     path: Assets/Scenes/S3L4.unity
     guid: 89ed1fb91cfedb74cba42b473283d859
   - enabled: 1
+    path: Assets/Scenes/Demo_3.unity
+    guid: 39187e7c21cc5c3449e6616c36c4c3d1
+  - enabled: 1
     path: Assets/Scenes/S3L5.unity
     guid: 29b568e37fb66c14790be91cd7ac8721
+  - enabled: 0
+    path: Assets/Scenes/Demo_1.unity
+    guid: 947f8ac6f5bca1541bc6da6cb157e0b7
   m_configObjects: {}

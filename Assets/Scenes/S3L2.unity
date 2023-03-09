@@ -2760,7 +2760,7 @@ GameObject:
   - component: {fileID: 489195113}
   - component: {fileID: 489195112}
   - component: {fileID: 489195118}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: NancyDark
   m_TagString: People
   m_Icon: {fileID: 0}
@@ -9407,7 +9407,7 @@ GameObject:
   - component: {fileID: 1509776532}
   - component: {fileID: 1509776534}
   - component: {fileID: 1509776535}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Nancy
   m_TagString: People
   m_Icon: {fileID: 0}
@@ -11398,7 +11398,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 144268156823657674, guid: 6a933cc5c5d183540be388ae5302c55e, type: 3}
       propertyPath: IsOn
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 144268156823657679, guid: 6a933cc5c5d183540be388ae5302c55e, type: 3}
       propertyPath: m_Name

@@ -17,8 +17,15 @@ public class InvenManager : MonoBehaviour
     public List<GameObject> slots = new List<GameObject>();
 
     private void Start()
-    {
+    { 
+        
+        
         RefreshItem();
+    }
+
+    private void Update()
+    {
+        
     }
 
     void Awake()

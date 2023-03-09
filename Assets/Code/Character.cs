@@ -22,6 +22,7 @@ public class Character : BaseUnit
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(PlayerPrefs.GetInt("InventoryCount"));
         Debug.Log(IsDieAnimationFinish);
         if (IsDie == false)
         {

@@ -18,11 +18,13 @@ public class ItemOnWorld : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
+    
     public void AddNewItem()
     {
         if(!PlayerInventory.itemList.Contains(thisItem))
         {
+            int InventoryCount = PlayerPrefs.GetInt("InventoryCount");
+            PlayerPrefs.SetInt("InventoryCount", InventoryCount+1);
             //PlayerInventory.itemList.Add(thisItem);
             //InvenManager.CreateNewItem(thisItem);
             //thisItem.itemHeld += 1;//default is 1, not 0

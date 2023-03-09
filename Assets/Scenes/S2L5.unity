@@ -9302,7 +9302,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1510104435}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -177, y: -303, z: 0}
+  m_LocalPosition: {x: -105.8, y: -303, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -12735,7 +12735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ControllingLight: {fileID: 495638671}
   DarkImage: {fileID: 1799197334}
-  LightImage: {fileID: 0}
+  LightImage: {fileID: 670782699}
   sr: {fileID: 2065430183}
 --- !u!212 &2065430183
 SpriteRenderer:
