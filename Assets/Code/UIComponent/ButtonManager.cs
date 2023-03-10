@@ -16,8 +16,11 @@ public class ButtonManager : MonoBehaviour
     public GameObject ExitButton;
     public GameObject ContinueButton1;
     public GameObject ContinueButton2;
+    public GameObject ContinueButton3;
     public GameObject TutorialPage1;
     public GameObject TutorialPage2;
+    public GameObject TutorialPage3;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -165,7 +168,14 @@ public class ButtonManager : MonoBehaviour
     public void BottonContinue2()
     {
         ContinueButton2.SetActive(false);
+        ContinueButton3.SetActive(true);
         TutorialPage2.SetActive(false);
+        TutorialPage3.SetActive(true);
+    }
+    public void BottonContinue3()
+    {
+        ContinueButton3.SetActive(false);
+        TutorialPage3.SetActive(false);
     }
 }
 

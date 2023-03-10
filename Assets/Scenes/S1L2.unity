@@ -2463,7 +2463,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1388537735}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: BottonContinue2
+        m_MethodName: BottonContinue3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7637,11 +7637,19 @@ PrefabInstance:
     - target: {fileID: 5350838279767919180, guid: 24fd89a94d63cd046a6c5dd595a76fe0, type: 3}
       propertyPath: TutorialPage2
       value: 
-      objectReference: {fileID: 64660337}
+      objectReference: {fileID: 0}
+    - target: {fileID: 5350838279767919180, guid: 24fd89a94d63cd046a6c5dd595a76fe0, type: 3}
+      propertyPath: TutorialPage3
+      value: 
+      objectReference: {fileID: 590535345}
     - target: {fileID: 5350838279767919180, guid: 24fd89a94d63cd046a6c5dd595a76fe0, type: 3}
       propertyPath: ContinueButton2
       value: 
-      objectReference: {fileID: 590535345}
+      objectReference: {fileID: 0}
+    - target: {fileID: 5350838279767919180, guid: 24fd89a94d63cd046a6c5dd595a76fe0, type: 3}
+      propertyPath: ContinueButton3
+      value: 
+      objectReference: {fileID: 64660337}
     - target: {fileID: 5350838279791299140, guid: 24fd89a94d63cd046a6c5dd595a76fe0, type: 3}
       propertyPath: m_Type
       value: 0

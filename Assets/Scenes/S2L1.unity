@@ -1652,9 +1652,17 @@ PrefabInstance:
     - target: {fileID: 5350838279767919180, guid: 24fd89a94d63cd046a6c5dd595a76fe0, type: 3}
       propertyPath: TutorialPage2
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5350838279767919180, guid: 24fd89a94d63cd046a6c5dd595a76fe0, type: 3}
+      propertyPath: TutorialPage3
+      value: 
       objectReference: {fileID: 509854737}
     - target: {fileID: 5350838279767919180, guid: 24fd89a94d63cd046a6c5dd595a76fe0, type: 3}
       propertyPath: ContinueButton2
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5350838279767919180, guid: 24fd89a94d63cd046a6c5dd595a76fe0, type: 3}
+      propertyPath: ContinueButton3
       value: 
       objectReference: {fileID: 350058759}
     - target: {fileID: 5350838279791299140, guid: 24fd89a94d63cd046a6c5dd595a76fe0, type: 3}
@@ -1946,7 +1954,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 129462867}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: BottonContinue2
+        m_MethodName: BottonContinue3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7408,6 +7416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameter:
     animator: {fileID: 1914380376}
+  roomBegin: {fileID: 0}
 --- !u!70 &1914380375
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

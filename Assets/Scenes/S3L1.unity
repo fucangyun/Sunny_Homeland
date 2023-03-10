@@ -2601,7 +2601,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 442847957}
     m_Modifications:
     - target: {fileID: 5119673793900721735, guid: 8e20b9b18f8e1fe4ca70547d563f3b4c, type: 3}
       propertyPath: m_Name
@@ -2609,15 +2609,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5119673793900721784, guid: 8e20b9b18f8e1fe4ca70547d563f3b4c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5119673793900721784, guid: 8e20b9b18f8e1fe4ca70547d563f3b4c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.72292
       objectReference: {fileID: 0}
     - target: {fileID: 5119673793900721784, guid: 8e20b9b18f8e1fe4ca70547d563f3b4c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1656.2979
+      value: 95.81287
       objectReference: {fileID: 0}
     - target: {fileID: 5119673793900721784, guid: 8e20b9b18f8e1fe4ca70547d563f3b4c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 840.0575
+      value: 30.900482
       objectReference: {fileID: 0}
     - target: {fileID: 5119673793900721784, guid: 8e20b9b18f8e1fe4ca70547d563f3b4c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3811,7 +3815,7 @@ Transform:
   - {fileID: 513896700}
   - {fileID: 709986020}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &708553561
 GameObject:
@@ -4190,7 +4194,7 @@ Transform:
   - {fileID: 1430633350}
   - {fileID: 2054059919}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &763098185
 GameObject:
@@ -4237,7 +4241,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &767760677
 GameObject:
@@ -4268,7 +4272,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 767760677}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18, y: -60.00009, z: 0}
+  m_LocalPosition: {x: -18, y: -79.4, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -5016,13 +5020,13 @@ GameObject:
   - component: {fileID: 984530325}
   - component: {fileID: 984530324}
   - component: {fileID: 984530323}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: NancyDark
   m_TagString: People
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &984530322
 Transform:
   m_ObjectHideFlags: 0
@@ -5052,6 +5056,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameter:
     animator: {fileID: 984530326}
+  roomBegin: {fileID: 307560140}
 --- !u!114 &984530324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5183,7 +5188,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 59ca43de83200ae42b03b670f22a7aa9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8cb5af64f3f7fc34292e5deb2de49312, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5405,9 +5410,17 @@ PrefabInstance:
     - target: {fileID: 5350838279767919180, guid: 24fd89a94d63cd046a6c5dd595a76fe0, type: 3}
       propertyPath: TutorialPage2
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5350838279767919180, guid: 24fd89a94d63cd046a6c5dd595a76fe0, type: 3}
+      propertyPath: TutorialPage3
+      value: 
       objectReference: {fileID: 1572572207}
     - target: {fileID: 5350838279767919180, guid: 24fd89a94d63cd046a6c5dd595a76fe0, type: 3}
       propertyPath: ContinueButton2
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5350838279767919180, guid: 24fd89a94d63cd046a6c5dd595a76fe0, type: 3}
+      propertyPath: ContinueButton3
       value: 
       objectReference: {fileID: 1381117497}
     - target: {fileID: 5350838279791299140, guid: 24fd89a94d63cd046a6c5dd595a76fe0, type: 3}
@@ -7001,7 +7014,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &1289620332 stripped
 RectTransform:
@@ -7589,7 +7602,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 131267930}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: BottonContinue2
+        m_MethodName: BottonContinue3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7857,7 +7870,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.0999999, y: 0.24752045}
+  m_AnchoredPosition: {x: 0.559, y: 0.228}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1509776525
@@ -7942,8 +7955,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509776525}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -486.5, y: 206, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -486.5, y: 206.00002, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8120,7 +8133,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1572572207
 GameObject:
@@ -8762,7 +8775,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1599258979
 GameObject:
@@ -9513,7 +9526,7 @@ RectTransform:
   - {fileID: 1003870837}
   - {fileID: 1244927168}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

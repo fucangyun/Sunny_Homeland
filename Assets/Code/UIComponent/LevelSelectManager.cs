@@ -33,7 +33,7 @@ public class LevelSelectManager : MonoBehaviour
     }
     public void LevelSelect()
     {
-        if (PlayerPrefs.GetInt("InventoryCount") == 15)
+        if (PlayerPrefs.GetInt("InventoryCount") == 14)
         {
             PlayerPrefs.SetInt("unlockedLevelIndex", 16);
         }

@@ -123,7 +123,7 @@ public class WalkState_Jacbo : Istate
                     GameObject.FindObjectOfType<ButtonManager>().GetComponent<ButtonManager>().DieMenu.SetActive(true);
                     Time.timeScale = 0;
             }
-            GameObject.FindObjectOfType<Character>().GetComponent<Character>().m_speed = 500;
+            GameObject.FindObjectOfType<Character>().GetComponent<Character>().m_speed = 300;
         }
     }
     public class AttackedState_Jacbo : Istate

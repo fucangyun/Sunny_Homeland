@@ -20,6 +20,8 @@ public class FSM_Jacbo : MonoBehaviour
     public Parameter_Jacbo parameter;
     private Istate currentState;
     private Dictionary<StateType_Jacbo, Istate> states = new Dictionary<StateType_Jacbo, Istate>();
+    [SerializeField]
+    private GameObject roomBegin;
     void Start()
     {
         states.Add(StateType_Jacbo.Idle_Jacbo, new IdleState_Jacbo(this));
@@ -30,6 +32,12 @@ public class FSM_Jacbo : MonoBehaviour
         TransitionState(StateType_Jacbo.Idle_Jacbo);
 
         parameter.animator = GetComponent<Animator>();
+        if(roomBegin != null)
+        {
+            transform.SetParent(roomBegin.transform);
+            gameObject.SetActive(false);
+        }
+        
     }
 
     void Update()

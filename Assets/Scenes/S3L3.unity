@@ -4189,6 +4189,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bag
       objectReference: {fileID: 0}
+    - target: {fileID: 4309890595329172171, guid: b7c496117ef11af4d810f935f4a1d9f5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7c496117ef11af4d810f935f4a1d9f5, type: 3}
 --- !u!224 &947673079 stripped
@@ -5671,7 +5675,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1217333400
 Transform:
   m_ObjectHideFlags: 0
@@ -5818,7 +5822,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 59ca43de83200ae42b03b670f22a7aa9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8cb5af64f3f7fc34292e5deb2de49312, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5843,6 +5847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameter:
     animator: {fileID: 1217333404}
+  roomBegin: {fileID: 307560140}
 --- !u!1 &1237136921
 GameObject:
   m_ObjectHideFlags: 0
@@ -7028,8 +7033,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1509776525}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -473, y: 224, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -473, y: 224.00002, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
