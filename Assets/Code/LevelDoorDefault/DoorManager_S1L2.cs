@@ -23,9 +23,9 @@ public class DoorManager_S1L2 : MonoBehaviour
         {
             flag = 0;
             doorArr_Demo1[0].pairNUM = 1;
-            doorArr_Demo1[1].pairNUM = 2;
-            //doorArr_Demo1[2].pairNUM = 1;
-            //doorArr_Demo1[3].pairNUM = 2;
+            doorArr_Demo1[1].pairNUM = 1;
+            doorArr_Demo1[2].pairNUM = 2;
+            doorArr_Demo1[3].pairNUM = 2;
             //doorArr_Demo1[4].pairNUM = 3;
             //doorArr_Demo1[5].pairNUM = 3;
             //doorArr_Demo1[6].pairNUM = 4;

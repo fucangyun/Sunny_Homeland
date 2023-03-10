@@ -58,7 +58,7 @@ public class Door_S3L4 : MonoBehaviour
         }
         if (pairNUM == 4)
         {
-            Sr.color = new Color32(154, 89, 25, 255);
+            Sr.color = new Color32(255, 255, 0, 255);
         }
         if (pairNUM == 5)
         {
