@@ -37,8 +37,9 @@ public class LevelSelectManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("unlockedLevelIndex", 16);
         }
-        UnlockedLevelIndex = PlayerPrefs.GetInt("unlockedLevelIndex");
+        UnlockedLevelIndex = 16;
         LevelSelectButtons = new Button[LevelSelectPanel.transform.childCount];
+
         for (int i = 0; i < LevelSelectPanel.transform.childCount; i++)
         {
             LevelSelectButtons[i] = LevelSelectPanel.transform.GetChild(i).GetComponent<Button>();

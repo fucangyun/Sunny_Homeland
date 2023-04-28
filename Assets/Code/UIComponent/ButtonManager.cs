@@ -152,8 +152,8 @@ public class ButtonManager : MonoBehaviour
 
     public void BottonExit()
     {
-        PlayerPrefs.SetInt("InventoryCount", 0);
-        PlayerPrefs.SetInt("unlockedLevelIndex", 0);
+        //PlayerPrefs.SetInt("InventoryCount", 0);
+        //PlayerPrefs.SetInt("unlockedLevelIndex", 0);
         Application.Quit();
     }
 
